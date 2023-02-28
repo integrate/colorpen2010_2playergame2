@@ -133,3 +133,6 @@ def hodba1(keys):
 @wrap.on_key_up(wrap.K_a, wrap.K_d)
 def hodba1s():
     player.changecostume(player1, 'stand')
+
+import wrap_py
+wrap_py.app.start()
